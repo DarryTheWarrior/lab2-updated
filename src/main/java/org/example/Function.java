@@ -51,7 +51,7 @@ public interface Function {
         });
         functionTable.put("cos", args -> {
             if (args.size() != 1) {
-                throw new RuntimeException("Wrong argument count for function abs: " + args.size());
+                throw new RuntimeException("Wrong argument count for function cos: " + args.size());
             }
             return (double) Math.cos(args.get(0));
         });
